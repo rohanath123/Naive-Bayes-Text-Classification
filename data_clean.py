@@ -5,7 +5,8 @@ from nltk.tokenize.moses import MosesDetokenizer
 nltk.download('words')
 nltk.download('stopwords')
 
-#USE WRITE_TO_EXCEL, PREPARE_DATA ONLY FOR CLEANING RAW DATASET. DONT USE THESE FUNCTIONS AS SUCH, IVE ALREADY INCLUDED THE CLEANED DATASET YOU NEED TO USE BELOW. 
+#USE WRITE_TO_EXCEL, PREPARE_DATA ONLY FOR CLEANING RAW DATASET.
+
 def write_to_excel(data, mode):
     with open("C:/Users/Rohan/Desktop/Lakhan Model/cleaned.csv", mode, newline = '') as f:
         writer = csv.writer(f)
